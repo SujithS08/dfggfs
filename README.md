@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
 
-## Project info
+🧠 Overview Section
+This section offers a high-level snapshot of the dataset:
 
-**URL**: https://lovable.dev/projects/04d03431-f219-4abe-a78e-77dd57878228
+Average Assessment Score: Displays the mean score across all students.
 
-## How can I edit this code?
+Average Comprehension & Attention: Highlights key cognitive skill averages.
 
-There are several ways of editing your application.
+Total Students: Shows the number of students analyzed.
+These metrics are presented in clean, bordered cards for quick readability and comparison.
 
-**Use Lovable**
+📊 Analytics Section
+This area dives deeper into performance trends using interactive charts:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/04d03431-f219-4abe-a78e-77dd57878228) and start prompting.
+Bar Chart (Skill Averages): Compares average values of comprehension, attention, focus, and retention across the student population.
 
-Changes made via Lovable will be committed automatically to this repo.
+Scatter Plot (Attention vs Score): Visualizes the correlation between attention levels and assessment scores, helping identify patterns like high attention leading to better performance.
 
-**Use your preferred IDE**
+Radar Chart (Top Student Profile): Displays the cognitive skill profile of the highest-scoring student, offering a holistic view of their strengths.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🧍 Personas Section
+Students are grouped into learning personas using clustering techniques:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Each student is tagged with a persona label (e.g., Persona A, B, C) based on their cognitive traits.
 
-Follow these steps:
+These personas help educators tailor interventions—for example, students with high attention but low retention may benefit from spaced repetition techniques.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📋 Student Table
+A searchable and sortable table listing every student with:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+ID, Name, Class
 
-# Step 3: Install the necessary dependencies.
-npm i
+Comprehension, Attention, Focus, Retention
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Engagement Time (weekly)
 
-**Edit a file directly in GitHub**
+Assessment Score
+This table supports dynamic filtering and sorting, making it easy to find specific students or compare performance across classes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💡 Insights Section
+This section summarizes key findings from the data:
 
-**Use GitHub Codespaces**
+Highlights which cognitive skills most strongly correlate with performance.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Offers actionable recommendations for improving student outcomes.
 
-## What technologies are used for this project?
+May include AI-generated feedback tailored to individual students (if integrated), such as:
 
-This project is built with:
+🎨 Design & Tech Stack
+Built with: Next.js, React, Recharts, Tailwind CSS
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Data Source: Synthetic dataset with cognitive metrics
 
-## How can I deploy this project?
+Deployment: Hosted on Vercel for fast, responsive access
 
-Simply open [Lovable](https://lovable.dev/projects/04d03431-f219-4abe-a78e-77dd57878228) and click on Share -> Publish.
+This dashboard isn’t just a tool—it’s a vision for smarter, personalized education. If you'd like, I can help you enhance it further with AI-powered insights or styling upgrades.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
